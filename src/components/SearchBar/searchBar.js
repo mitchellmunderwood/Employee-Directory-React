@@ -2,7 +2,11 @@ import React from "react";
 import "./searchBar.css";
 
 function SearchBar() {
-  return <h1>Search Bar</h1>;
+  return (
+    <div id="SearchBar">
+      <input type="search" placeholder="Search"></input>
+    </div>
+  );
 }
 
 export default SearchBar;
