@@ -5,10 +5,10 @@ function EmployeeRow(props) {
   return (
     <div className="employeeRow">
       <img src={props.imageURL} width="50px" height="50px" />
-      <p>{props.first + " " + props.last}</p>
-      <p>{props.phone}</p>
-      <p>{props.email}</p>
-      <p>{props.dob}</p>
+      <p class="name">{props.first + " " + props.last}</p>
+      <p class="phone">{props.phone}</p>
+      <p class="email">{props.email}</p>
+      <p class="dob">{props.dob}</p>
     </div>
   );
 }

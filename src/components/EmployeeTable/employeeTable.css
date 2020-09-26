@@ -13,6 +13,27 @@
   border-bottom: 1px solid grey;
   display: flex;
   /* flex-direction: row; */
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
+}
+
+p {
+  overflow-x: auto;
+  margin-right: 10px;
+}
+
+#imgHeader {
+  width: 10%;
+}
+#nameHeader {
+  width: 20%;
+}
+#phoneHeader {
+  width: 20%;
+}
+#emailHeader {
+  width: 25%;
+}
+#dobHeader {
+  width: 25%;
 }

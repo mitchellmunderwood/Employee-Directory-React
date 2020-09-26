@@ -1,16 +1,33 @@
 .employeeRow {
   display: flex;
-  justify-content: space-around;
-  /* align-items: center; */
   width: 100%;
   margin: 10px 0px 5px 0px;
 }
 
+/* media query for change in margin-right for < 700 px screen width */
+
 img {
   border-radius: 50%;
   border: 1px solid black;
+  margin-right: calc(10% - 52px);
 }
 
 p {
-  align-text: left;
+  overflow-x: auto;
+}
+
+.name {
+  width: 20%;
+}
+
+.phone {
+  width: 20%;
+}
+
+.email {
+  width: 25%;
+}
+
+.dob {
+  width: 25%;
 }
