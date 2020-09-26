@@ -16,6 +16,7 @@ img {
 p {
   overflow-x: auto;
   overflow-y: none;
+  cursor: pointer;
   /* height: 25px; */
 }
 
