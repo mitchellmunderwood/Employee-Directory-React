@@ -1,13 +1,14 @@
 import React from "react";
+import "./employeeRow.css";
 
 function EmployeeRow(props) {
   return (
-    <div>
+    <div className="employeeRow">
       <img src={props.imageURL} width="50px" height="50px" />
-      <li>{props.first + " " + props.last}</li>
-      <li>{props.phone}</li>
-      <li>{props.email}</li>
-      <li>{props.dob}</li>
+      <p>{props.first + " " + props.last}</p>
+      <p>{props.phone}</p>
+      <p>{props.email}</p>
+      <p>{props.dob}</p>
     </div>
   );
 }

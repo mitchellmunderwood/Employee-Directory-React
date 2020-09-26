@@ -1,20 +1,20 @@
 import React from "react";
 import "./employeeTable.css";
-import EmployeeRow from "../EmployeeRow/employeeRow";
+import EmployeeList from "../EmployeeList/employeeList";
 
 function EmployeeTable(props) {
-  const rows = props.selected.map((employee) => (
-    <EmployeeRow
-      first={employee.name.first}
-      last={employee.name.last}
-      phone={employee.cell}
-      email={employee.email}
-      dob={employee.dob.date}
-      imageURL={employee.picture.thumbnail}
-    />
-  ));
+  return (
+    <div id="table">
+      <div id="tableHeader">
+        <p id="nameHeader">Name</p>
+        <p id="phoneHeader">phone</p>
+        <p id="emailHeader">emial</p>
+        <p id="dobHeader">dob</p>
+      </div>
 
-  return rows;
+      {/* <EmployeeList selected={props.selected} /> */}
+    </div>
+  );
 }
 
 export default EmployeeTable;

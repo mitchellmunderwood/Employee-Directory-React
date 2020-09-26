@@ -1,3 +1,16 @@
-p {
-  color: black;
+#table {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  border: 1px solid black;
+  width: 80%;
+}
+
+#tableHeader {
+  width: 100%;
+  border: 1px solid blue;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-around;
+  align-items: center;
 }
