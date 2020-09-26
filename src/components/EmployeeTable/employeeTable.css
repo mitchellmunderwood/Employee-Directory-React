@@ -2,13 +2,15 @@
   display: flex;
   /* justify-content: center; */
   align-items: center;
-  border: 1px solid black;
+  flex-direction: column;
+  /* border: 1px solid black; */
   width: 80%;
 }
 
 #tableHeader {
   width: 100%;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
+  border-bottom: 1px solid grey;
   display: flex;
   /* flex-direction: row; */
   justify-content: space-around;
