@@ -28,12 +28,20 @@ class App extends Component {
     const value = event.target.value;
     const employees = this.state.employees;
 
+    console.log("value:", value);
+
     const selectedEmployees = employees.filter((employee) => {
-      employee.name.first.search(value) ||
-        employee.name.last.search(value) ||
-        employee.email.search(value) ||
-        employee.phone.search(value) ||
-        employee.dob.date.search(value);
+      if (
+        employee.name.first.includes(value) ||
+        employee.name.last.includes(value) ||
+        employee.email.includes(value) ||
+        employee.phone.includes(value) ||
+        employee.dob.date.includes(value)
+      ) {
+        return true;
+      } else {
+        return false;
+      }
     });
 
     this.setState({
@@ -41,6 +49,8 @@ class App extends Component {
       search: value,
       selected: selectedEmployees,
     });
+
+    console.log("Selected", selectedEmployees);
   };
 
   handleFilter = (collection, criteria) => {};
@@ -50,7 +60,7 @@ class App extends Component {
       <div>
         <Header />
         <div id="main">
-          <SearchBar />
+          <SearchBar OnSearch={this.handleSearch} />
           <EmployeeTable selected={this.state.selected} />
         </div>
         <Footer />

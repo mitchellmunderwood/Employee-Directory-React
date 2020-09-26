@@ -5,7 +5,7 @@ function SearchBar(props) {
   return (
     <div id="SearchBar">
       <input
-        onChange={props.handleSearch}
+        onChange={props.OnSearch}
         type="search"
         placeholder="Search"
       ></input>
