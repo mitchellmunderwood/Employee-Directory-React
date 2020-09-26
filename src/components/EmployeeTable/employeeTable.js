@@ -6,11 +6,21 @@ function EmployeeTable(props) {
   return (
     <div id="table">
       <div id="tableHeader">
-        <p id="imgHeader">Image</p>
-        <p id="nameHeader">Name</p>
-        <p id="phoneHeader">Phone</p>
-        <p id="emailHeader">Email</p>
-        <p id="dobHeader">DOB</p>
+        <p onClick={props.OnFilter} id="img">
+          Image
+        </p>
+        <p onClick={props.OnFilter} id="name">
+          Name
+        </p>
+        <p onClick={props.OnFilter} id="phone">
+          Phone
+        </p>
+        <p onClick={props.OnFilter} id="email">
+          Email
+        </p>
+        <p onClick={props.OnFilter} id="dob">
+          DOB
+        </p>
       </div>
 
       <EmployeeList selected={props.selected} />

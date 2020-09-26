@@ -7,7 +7,7 @@ function EmployeeList(props) {
     <EmployeeRow
       first={employee.name.first}
       last={employee.name.last}
-      phone={employee.cell}
+      phone={employee.phone}
       email={employee.email}
       dob={employee.dob.date}
       imageURL={employee.picture.thumbnail}

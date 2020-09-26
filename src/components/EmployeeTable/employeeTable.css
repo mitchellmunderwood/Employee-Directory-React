@@ -24,18 +24,18 @@ p {
   margin-right: 10px;
 }
 
-#imgHeader {
+#img {
   width: 10%;
 }
-#nameHeader {
+#name {
   width: 20%;
 }
-#phoneHeader {
+#phone {
   width: 20%;
 }
-#emailHeader {
+#email {
   width: 25%;
 }
-#dobHeader {
+#dob {
   width: 25%;
 }

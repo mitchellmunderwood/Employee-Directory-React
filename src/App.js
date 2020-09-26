@@ -53,7 +53,37 @@ class App extends Component {
     console.log("Selected", selectedEmployees);
   };
 
-  handleFilter = (collection, criteria) => {};
+  handleFilter = (event) => {
+    const criteria = event.target.id;
+    let filteredEmployees = [];
+
+    console.log("Criteria", criteria);
+
+    if (criteria === "name") {
+      filteredEmployees = this.state.selected.sort((a, b) => {
+        if (a.name.first > b.name.first) return 1;
+        if (b.name.first > a.name.first) return -1;
+        return 0;
+      });
+    } else if (criteria === "dob") {
+      filteredEmployees = this.state.selected.sort((a, b) => {
+        if (a[criteria].date > b[criteria].date) return 1;
+        if (b[criteria].date > a[criteria].date) return -1;
+        return 0;
+      });
+    } else {
+      filteredEmployees = this.state.selected.sort((a, b) => {
+        if (a[criteria] > b[criteria]) return 1;
+        if (b[criteria] > a[criteria]) return -1;
+        return 0;
+      });
+    }
+
+    this.setState({
+      ...this.state,
+      selected: filteredEmployees,
+    });
+  };
 
   render() {
     return (
@@ -61,7 +91,10 @@ class App extends Component {
         <Header />
         <div id="main">
           <SearchBar OnSearch={this.handleSearch} />
-          <EmployeeTable selected={this.state.selected} />
+          <EmployeeTable
+            selected={this.state.selected}
+            OnFilter={this.handleFilter}
+          />
         </div>
         <Footer />
       </div>
