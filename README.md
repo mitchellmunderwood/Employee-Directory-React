@@ -1,7 +1,7 @@
 <h1 align="center">
   <br>
   <!-- image/logo link -->
-  <a href="https://www.mitchellmunderwood.github.io/Employee-Directory.com"><img src="./README-Support/employee-directory-logo.png" alt="Employee Directory" width="200" height="200"></a>
+  <a href="https://www.mitchellmunderwood.github.io/React-Employee-Directory.com"><img src="./README-Support/employee-directory-logo.png" alt="Employee Directory" width="200" height="200"></a>
   <br>
   Employee Directory
   <br>
@@ -18,7 +18,7 @@ Employee Directory is brought to you by <a href="https://github.com/mitchellmund
 </p>
 
 <p align="center">
-Employee Directory is currently deployed with Github Pages at <a href="https://www.mitchellmunderwood.github.io/Employee-Directory.com">mitchellmunderwood.github.io/Employee-Directory.com</a>.
+Employee Directory is currently deployed with Github Pages at <a href="https://www.mitchellmunderwood.github.io/React-Employee-Directory.com">mitchellmunderwood.github.io/React-Employee-Directory.com</a>.
 </p>
 
 <p align="center">
@@ -46,7 +46,6 @@ Employee Directory is currently deployed with Github Pages at <a href="https://w
   <a href="#license">License</a> •
   <a href="#installation">Installation</a> •
   <a href="#usage">Usage</a> •
-  <a href="#testing">Testing</a> •
   <a href="#questions">Questions</a> •
   <a href="#contributing">Contributing</a> •
   <a href="#acknowledgements">Acknowledgements</a>
@@ -74,7 +73,7 @@ Employee Directory is currently deployed with Github Pages at <a href="https://w
 ## Gallery
 
 <p align="center">
-    <img src="./README-support/directory.png"
+    <img src="./README-Support/directory.png"
          width="80%" height="auto">
 <br/>
 
@@ -154,7 +153,7 @@ To fix a bug or enhance an existing feature, follow these steps:
 
 |                                                                      | Name               | Github                                                     | LinkedIn                                                                         | Portfolio                                                    |
 | -------------------------------------------------------------------- | ------------------ | ---------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| <img src="./README-support/mitchell.jpg" width="150" height="150" /> | Mitchell Underwood | <a href="https://github.com/mitchellmunderwood">Github</a> | <a href="https://www.linkedin.com/in/mitchell-underwood-295455122/">LinkedIn</a> | <a href="https://mitchellmunderwood.github.io/">Porfolio</a> |
+| <img src="./README-Support/mitchell.jpg" width="150" height="150" /> | Mitchell Underwood | <a href="https://github.com/mitchellmunderwood">Github</a> | <a href="https://www.linkedin.com/in/mitchell-underwood-295455122/">LinkedIn</a> | <a href="https://mitchellmunderwood.github.io/">Porfolio</a> |
 
 <br/>
 
