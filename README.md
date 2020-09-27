@@ -1,7 +1,7 @@
 <h1 align="center">
   <br>
   <!-- image/logo link -->
-  <a href="https://www.mitchellmunderwood.github.io/React-Employee-Directory.com"><img src="./README-Support/employee-directory-logo.png" alt="Employee Directory" width="200" height="200"></a>
+  <a href="https://employee-directory-mu.herokuapp.com/"><img src="./README-Support/employee-directory-logo.png" alt="Employee Directory" width="200" height="200"></a>
   <br>
   Employee Directory
   <br>
@@ -18,7 +18,7 @@ Employee Directory is brought to you by <a href="https://github.com/mitchellmund
 </p>
 
 <p align="center">
-Employee Directory is currently deployed with Github Pages at <a href="https://www.mitchellmunderwood.github.io/React-Employee-Directory.com">mitchellmunderwood.github.io/React-Employee-Directory.com</a>.
+Employee Directory is currently deployed with heroku at <a href="https://employee-directory-mu.herokuapp.com/">employee-directory-mu.herokuapp.com/</a>.
 </p>
 
 <p align="center">
@@ -33,7 +33,7 @@ Employee Directory is currently deployed with Github Pages at <a href="https://w
          alt="React">
 <br>
 <!-- line for badges -->
-    <img src="https://img.shields.io/badge/Deploy-Github-informational?style=flat&logo=github&logoColor=white&color=blue"
+    <img src="https://img.shields.io/badge/Deploy-Heroku-informational?style=flat&logo=heroku&logoColor=white&color=blue"
          alt="Heroku">
     <img src="https://img.shields.io/badge/License-MIT-informational?style=flat&logo=mit&logoColor=white&color=blue"
          alt="MIT License">
@@ -81,19 +81,13 @@ Employee Directory is currently deployed with Github Pages at <a href="https://w
 
 Employee Directory is a clean & simple React application that will randomly generate a table of 10 employees. This table is able to be searched through inputs in the search bar, which will filter across every criteria. Sorting is possible by clicking the table header by which to sort. Soring occurs in ascending order only.
 
-<br/>
-
 ## License
 
 Employee Directory is licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT) and is available for free.
 
-<br/>
-
 ## Installation
 
 Clone this repo to your desktop and run `npm install` to install all the dependencies.
-
-<br/>
 
 ## Usage
 
@@ -103,7 +97,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-###### `npm start`
+###### `nodemon serve.js`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -111,28 +105,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-###### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-###### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-<br/>
-
 ## Questions
 
 For additional questions, email Mitchell Underwood at ***mitchellmunderwood@gmail.com***
-
-<br/>
 
 ## Contributing
 
@@ -147,15 +122,11 @@ To fix a bug or enhance an existing feature, follow these steps:
 - Push to the branch `git push origin improve-feature`
 - Create a Pull Request
 
-<br/>
-
 ## Contributors
 
 |                                                                      | Name               | Github                                                     | LinkedIn                                                                         | Portfolio                                                    |
 | -------------------------------------------------------------------- | ------------------ | ---------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------ |
 | <img src="./README-Support/mitchell.jpg" width="150" height="150" /> | Mitchell Underwood | <a href="https://github.com/mitchellmunderwood">Github</a> | <a href="https://www.linkedin.com/in/mitchell-underwood-295455122/">LinkedIn</a> | <a href="https://mitchellmunderwood.github.io/">Porfolio</a> |
-
-<br/>
 
 ## Acknowledgements
 
