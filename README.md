@@ -18,7 +18,7 @@ Employee Directory is brought to you by <a href="https://github.com/mitchellmund
 </p>
 
 <p align="center">
-Employee Directory is currently deployed with heroku at <a href="https://employee-directory-mu.herokuapp.com/">employee-directory-mu.herokuapp.com/</a>.
+Employee Directory is currently deployed with heroku at <a href="https://employee-directory-mu.herokuapp.com/" target="_blank">employee-directory-mu.herokuapp.com/</a>.
 </p>
 
 <p align="center">
