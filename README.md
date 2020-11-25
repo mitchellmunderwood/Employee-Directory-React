@@ -1,7 +1,7 @@
 <h1 align="center">
   <br>
   <!-- image/logo link -->
-  <a href="https://employee-directory-mu.herokuapp.com/"><img src="./README-support/logo.png" alt="title" width="200" height="200" ></a>
+  <a href="https://employee-directory-mu.herokuapp.com/"><img src="./README-Support/logo.png" alt="title" width="200" height="200" ></a>
   
   Employee-Directory
   <br>
@@ -45,7 +45,7 @@ Employee-Directory is currently deployed with Heroku. <a href="https://employee-
 ### Gallery
 
 <p align="center">
-    <img src="./README-support/img1.png" width="auto" height="auto">
+    <img src="./README-Support/img1.png" width="auto" height="auto">
 </p>
 
 <br/>
@@ -135,7 +135,7 @@ To fix a bug or enhance an existing feature, follow these steps:
 ### Contributors
 
 <p align="center">
-<img src="./README-support/mitchell.jpg" width="150" height="150" />
+<img src="./README-Support/mitchell.jpg" width="150" height="150" />
 <br/>
 Mitchell Underwood
 <br/>
