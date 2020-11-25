@@ -3,7 +3,7 @@
   <!-- image/logo link -->
   <a href="https://employee-directory-mu.herokuapp.com/"><img src="./README-Support/logo.png" alt="title" width="200" height="200" ></a>
   
-  Employee-Directory
+  Employee-Directory-React
   <br>
 </h1>
 
@@ -39,7 +39,7 @@ Simplify organizing and finding the employees in your company.
 
 ### Live
 
-Employee-Directory is currently deployed with Heroku. <a href="https://employee-directory-mu.herokuapp.com/">Go to Live</a>.
+Employee-Directory-React is currently deployed with Heroku. <a href="https://employee-directory-mu.herokuapp.com/">Go to Live</a>.
 <br/>
 
 ### Gallery
@@ -52,7 +52,7 @@ Employee-Directory is currently deployed with Heroku. <a href="https://employee-
 
 ### Description
 
-Employee Directory is a clean & simple React application that will randomly generate a table of 10 employees. This table is able to be searched through inputs in the search bar, which will filter across every criteria. Sorting is possible by clicking the table header by which to sort. Soring occurs in ascending order only.
+Employee-Directory-React is a clean & simple React application that will randomly generate a table of 10 employees. This table is able to be searched through inputs in the search bar, which will filter across every criteria. Sorting is possible by clicking the table header by which to sort. Soring occurs in ascending order only.
 
 <br/>
 
@@ -63,7 +63,7 @@ Employee Directory is a clean & simple React application that will randomly gene
          alt="MIT License">
 </p>
 
-Employee-Directory is licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT) and is available for free.
+Employee-Directory-React is licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT) and is available for free.
 
 <br/>
 
